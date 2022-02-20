@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(44, 42, 42) 6%, rgb(185, 185, 185) 93%, rgba(255,255,255,1) 100%);
+}
+
+nav{
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 70px;   
+}
+
+.tittle{
+    display: flex ;
+    margin-right: 10px;
+    color: black;
+    font-size: 60px;
+    margin-top: -70px;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+nav ul{
+    float: right;
+    margin-right: 100px;
+    margin-top: -60px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 28px;
+    margin: 10px;
+    margin-block-end: 1%;
+}
+
+nav ul li a{
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a.nv-link:hover{
+    background-color: black;
+    color: white;
+}
+
+
+div.general{
+    margin: auto;
+    width: 1200px;
+    height: 1200px;
+    background-color: rgb(24, 24, 23);
+    justify-content: center;
+    align-items: center;
+}
+
+div.lupa{
+    display: inline-block;
+    float: right;
+    margin-top: -50px;
+    margin-right: 300px;
+}
+
+.form-registro{
+    width: 400px;
+    background-color: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.form-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.controls{
+    width: 100%;    
+    background: black;
+    padding: 10px;
+    border-radius: 4px; 
+    margin-bottom: 16px;    
+    border: 1px solid gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+
+}
+
+.form-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-registro a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-registro .botons{
+    width: 100%;
+    background: gray;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin-left: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-registro .botons:hover{
+    width: 100%;
+    background: rgb(167, 164, 164);
+    border: none;
+    padding: 12px;
+    color: black;
+    margin-left: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}

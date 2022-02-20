@@ -1,0 +1,205 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(44, 42, 42) 6%, rgb(185, 185, 185) 93%, rgba(255,255,255,1) 100%);
+}
+
+nav{
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 70px;   
+}
+
+.tittle{
+    display: flex ;
+    margin-right: 10px;
+    color: black;
+    font-size: 60px;
+    margin-top: -70px;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+nav ul{
+    float: right;
+    margin-right: 100px;
+    margin-top: -60px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 28px;
+    margin: 10px;
+    margin-block-end: 1%;
+}
+
+nav ul li a{
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a.nv-link:hover{
+    background-color: black;
+    color: white;
+}
+
+
+div.general{
+    margin: auto;
+    width: 1200px;
+    height: 1800px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+div.lupa{
+    display: inline-block;
+    float: right;
+    margin-top: -50px;
+    margin-right: 300px;
+}
+img.remera-negra{
+    width: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+div.rn{
+    display: block;
+}
+
+a.rn1{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11px;
+    padding: 3px;
+    font-size: 20px;
+    
+}
+
+a.rn-15{
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-size: 15px;
+}
+    
+a.cuotas1{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+div.ra{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.ra1{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11px;
+    padding: 3px;
+    font-size: 20px;
+}
+
+a.ra1-24{
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-size: 15px;
+}
+
+a.cuotas2{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.novedades{
+    display: inline-block;
+    margin-left: 450px;
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+div.bloque1{
+    width: 1200px;
+    height: 42%;   
+    background: rgb(0,0,0);
+    background: linear-gradient(177deg, rgba(0,0,0,1) 0%, rgba(1,1,1,1) 2%, rgb(168, 167, 167) 100%);
+}
+
+div.redes{
+    display: flex;
+    color: black;
+    justify-content: left;
+    margin-left: 200px;
+    padding-top: 400px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.in{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 200px;  
+}
+
+p.contacto{
+    display: block;
+    float: right ;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -116px;
+    margin-right: 200px;
+}
+
+div.infcont{
+    display: table-column;
+    color: rgb(31, 30, 30);
+    float: right ;
+    font-size: 18px;
+    margin-right: 100px;
+    margin-top: -70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.cerran2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}

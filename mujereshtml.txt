@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hombres.css">
+    <script src="https://kit.fontawesome.com/48a799e1cd.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<header>
+    <nav>
+    </label>
+    <img src="IMG\LOGO.png" alt="70" width="70">
+    <div class="tittle">ROPS</div>
+    <div class="lupa">
+        <i class="fas fa-search"></i> 
+        <input type="text" placeholder="Buscar">
+    </div>
+    <ul>
+        <li><a href="file:///C:/Users/Usuario/Desktop/Leandro/Programacion/Ejercicios/1-Integrador-3/index.html" class="nv-link">INICIO</a></li>
+        <li><a href="#" class="nv-link">CONTACTO</a></li>
+    </ul>  
+    </nav>
+</header>
+<body>
+    <div class="general">
+        <div class="novedades">NOVEDADES</div>
+        <div class="barras">
+        </div>
+        <a href="#"><img src="IMG\remera_negra_lisa.jpg" alt="300px" width="300px" class="remera-negra"></a>      
+            <div class="rn">
+                <a href="#" class="rn1">Remera Negra</a> 
+                <a href="#" class="rn-15">$2.400</a>
+                <a href="#" class="cuotas1"><b>6 Cuotas sin interes de $400</b></a>
+            </div>
+            <div class="ra">
+                <a href="#"><img src="IMG\remera_amarilla_lisa_.jpg" alt="300px" width="300px" class="remera-amarilla"></a>
+            </div>
+                <div>
+                    <a href="#" class="ra1">Remera Amarilla</a>
+                    <a href="#" class="ra1-24">$2400</a>
+                    <a href="#" class="cuotas2"><b>6 Cuotas sin interes de $400</b></a>
+                </div>
+                <div class="bloque1">
+                    <div class="redes">
+                        <p class="redesso">REDES SOCIALES</p>         
+                    </div> 
+                    <div class="in"><a href="https://www.instagram.com/leaandro.jr/"><img src="IMG\LOGO INSTA.png" alt="100px" width="100px"></a> 
+                    <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"> <img src="IMG\LOGO GMAIL.png" alt="100px" width="100px"></a></div>
+                    <div class="cont">
+                        <p class="contacto">CONTACTO</p>                          
+                    </div>
+                    <div class="infcont">
+                        <p><b>GMAIL:</b> ropsasd123@gmail.com</p> <p><b>TEL:</b> 1159123456</p> <p><b>SUCURSAL:</b> Buenos Aires, Capital Federal</p>
+                    </div>
+                    <div class="cerran2">
+                        <p>Al navegar por este sitio aceptás el uso de cookies para agilizar tu experiencia de compra.</p>
+                    </div>
+    </div>
+</body>
+</html>
